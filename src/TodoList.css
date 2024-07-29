@@ -1,0 +1,87 @@
+/* src/TodoList.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .main {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .todo-container, .list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .input-section, .list-section {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .task-input, .time-input {
+    width: calc(35% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    background-color: #076054;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .add-button:hover {
+    background-color: #0ab57c;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+    color:#076054;;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  .task-time {
+    margin-left: auto;
+    color: #888;
+  }
+  
